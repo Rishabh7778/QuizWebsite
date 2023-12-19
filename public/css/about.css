@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:wght@300&display=swap');
+
+body {
+    background: url(about.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo {
+    width: 500px;
+    cursor: pointer;
+    border-image-outset: 10px;
+    border-radius: 150px;
+    margin-top: 7%;
+    box-shadow: 10px 20px 3px gray;
+    animation-iteration-count: 1;
+    border: 1px solid white;
+    animation-name: jyotika;
+    animation-duration: inherit;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.main h4 {
+    color: darkblue;
+    margin-left: 60px;
+    font-size: 20px;
+    margin-top: 10px;
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 50px;
+    color: rgb(93, 63, 228);
+    padding-top: 30px;
+}
+
+.h2{
+    position: absolute;
+    left: 50%;
+    bottom: 60%;
+    font-size: 30px;
+    color: rgb(0, 44, 110);
+}
+
+i {
+    color: white;
+    font-size: 40px;
+    margin-left: 70%;
+    border-radius: 70px;
+}
+
+b {
+    font-size: 23px;
+    color: white;
+}
+
+.main h4 p {
+    color: black;
+    font-size: 20px;
+}
+
+.aboutbtn{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(132, 132, 255);
+}
+.aboutbtn:hover{
+    color: rgb(0, 0, 159);
+}
+
+.AbN{
+    color: rgb(125, 124, 123);
+    font-weight: 700;
+    text-decoration: underline;
+}

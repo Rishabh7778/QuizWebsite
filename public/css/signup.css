@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to bottom right, #9a67db, #4b4b00);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: #2f1f47;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    position: relative;
+    overflow: hidden;
+    color: white;
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo button{
+    margin: 16px 7px;
+    padding: 8px 12px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 40%;
+    border: none;
+}
+.login-container p{
+    text-align: center;
+ }
+.logo i{
+    font-size: 25px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+    /* display: block; */
+}
+
+.form-group input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.remember{
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.form-group .submit {
+    background-color: #007BFF;
+    width: 96%;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .login-container {
+        width: 90%;
+    }
+}
+
+form #userErr,
+form #passErr{
+	margin-top: 5px;
+	width: 345px;
+	font-size: 18px;
+	color: #C62828;
+	background: rgba(255,0,0,0.1);
+	text-align: center;
+	padding: 5px 8px;
+	border-radius: 3px;
+	border: 1px solid #EF9A9A;
+	display: none;
+}
+
+.backLogin{
+text-decoration: none;
+color: #908e8e;
+font-size: 1.3rem;
+font-weight: 600;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="codecell, tsec, contact, contact us, harsh kapadia, html, css, js, vanilla css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Overpass+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+    <link rel="shortcut icon" href="css/img/codecell_logo.svg" type="image/x-icon" sizes="any">
+
+    <script defer src="script/account_dropdown.js"></script>
+    {{!--
+    <script defer src="script/burger_menu_dropdown.js"></script> --}}
+
+    <title>Contact</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="left-side">
+
+            <div class="logo">
+                <a href="#"><img src="css/contlogo.jpg" alt="TTT" class="contLogo"></a>
+            </div>
+        </div>
+
+    </nav>
+
+    <main>
+        <div class="title">Contact us</div>
+        <div class="title-info"> We're here to help !</div>
+
+       <form action="submit_registration" method="POST" class="form">
+            <div class="input-group">
+                <input type="text" name="username" id="username" placeholder="First name">
+                <label for="username">First name</label>
+            </div>
+
+            <div class="input-group">
+                <input type="text" name="lastName" id="lastName" placeholder="Last Name">
+                <label for="lastName">Last name</label>
+            </div>
+
+            <div class="input-group">
+                <input type="email" name="email" id="email" placeholder="email">
+                <label for="email">email</label>
+            </div>
+
+            <div class="textarea-group">
+                <textarea name="Message" id="Message" rows="5" placeholder="Message"></textarea>
+                {{!-- <label for="message">Message</label> --}}
+            </div>
+
+            <div class="button-div">
+                <button type="submit">Send</button>
+            </div>
+        </form>
+    </main>
+
+
+
+    <footer>
+        <div class="footer">
+            <div class="row">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+                <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+
+            <div class="row">
+                <ul>
+                    <li><a href="#">Email Id: uppal.jyotika@gmail.com , saty665566@gmail.com </a></li>
+                    <li><a href="#">Our Services</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Career</a></li>
+                </ul>
+            </div>
+
+            <div class="row">
+                TTT Copyright © 2023 TTT - We reassure you that your contact information will be kept confidential and
+                will not be shared with the third parties
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
